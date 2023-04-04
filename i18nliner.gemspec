@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
- 
+
 Gem::Specification.new do |s|
   s.name = 'i18nliner'
   s.version = '0.1.0'
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.files = %w(LICENSE.txt Rakefile README.md) + Dir['{lib,spec}/**/*.{rb,rake}']
   s.add_dependency('activesupport', '>= 3.0')
   s.add_dependency('ruby_parser', '~> 3.10')
-  s.add_dependency('sexp_processor', '~> 4.10')
+  s.add_dependency('sexp_processor', '< 4.14.1')
   s.add_dependency('ruby2ruby', '~> 2.4')
   s.add_dependency('globby', '>= 0.1.1')
   s.add_dependency('erubi', '~> 1.7.1')
