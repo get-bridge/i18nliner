@@ -17,13 +17,6 @@ jobs:
         os: [ubuntu-latest, macos-latest]
         ruby:
           # todo: remove EOL ruby versions once gemspec is updated
-          - '1.9.3'
-          - '2.0'
-          - '2.1'
-          - '2.3'
-          - '2.4'
-          - '2.5'
-          - '2.6'
           - '2.7'
           - '3.0'
           - '3.1'
