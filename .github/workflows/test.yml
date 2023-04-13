@@ -25,7 +25,9 @@ jobs:
           - 'head'
 
     steps:
-      - uses: actions/checkout@v3.5.1
+      - uses: actions/checkout@v3.5.2
+        with:
+          persist-credentials: false
 
       - uses: ruby/setup-ruby@v1.146.0
         with:
