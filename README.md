@@ -1,6 +1,6 @@
 # I18nliner
 
-[<img src="https://secure.travis-ci.org/jenseng/i18nliner.png" />](http://travis-ci.org/jenseng/i18nliner)
+[![Test](https://github.com/get-bridge/i18nliner/actions/workflows/test.yml/badge.svg)](https://github.com/get-bridge/i18nliner/actions/workflows/test.yml)
 
 I18nliner is I18n made simple.
 
