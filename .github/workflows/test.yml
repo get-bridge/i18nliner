@@ -29,7 +29,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: ruby/setup-ruby@v1.146.0
+      - uses: ruby/setup-ruby@v1.147.0
         with:
           ruby-version: ${{ matrix.ruby-version }}
           bundler-cache: true
